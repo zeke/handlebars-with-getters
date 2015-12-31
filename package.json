@@ -1,0 +1,11 @@
+{
+  "name": "handlebars-with-getters",
+  "version": "1.0.0",
+  "description": "Proof that getter methods are supported by handlebars!",
+  "main": "index.js",
+  "author": "zeke",
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  }
+}
