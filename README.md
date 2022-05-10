@@ -2,6 +2,15 @@
 
 Proof that getter methods are supported by handlebars!
 
+
+
+> ### ⚠️ This requires Handlebars options that may open security holes.
+>
+> See the Handlebars documentation for [Options to control prototype access](https://handlebarsjs.com/api-reference/runtime-options.html#options-to-control-prototype-access).
+
+
+
+
 ## Installation
 
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.

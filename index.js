@@ -1,7 +1,7 @@
 'use strict'
 
 const handlebars = require('handlebars')
-const template = "{{#each letters}} {{this}} {{/each}}"
+const template = "{{#each letters}} {{this}} | {{/each}}"
 var context
 
 class Alphabet {
@@ -12,7 +12,11 @@ class Alphabet {
 
 context = new Alphabet()
 console.log('class instance with getter methods:')
-console.log(handlebars.compile(template)(context))
+console.log(handlebars.compile(template)(context, {
+    allowedProtoProperties: {
+        letters: true 
+    }   
+}))
 
 
 context = {
